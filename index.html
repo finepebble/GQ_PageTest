@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>샘플 한우 선물세트</title>
+
+  <!-- JSON-LD: 상품 정보 + FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "1등급 한우 3구 선물세트 1.2kg",
+    "image": "https://username.github.io/llm_test_website/product.jpg",
+    "description": "국내산 1등급 한우 불고기·국거리·장조림 400g씩 구성된 3구 세트",
+    "sku": "HANWOO-SET-3",
+    "brand": { "@type": "Brand", "name": "LLM테스트몰" },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "KRW",
+      "price": "129000",
+      "availability": "https://schema.org/InStock"
+    },
+    "review": [
+      { "@type": "Review", "reviewRating": {"@type": "Rating","ratingValue": "5"}, "author": "김철수", "reviewBody": "신선하고 포장이 좋아 명절 선물로 최고!" },
+      { "@type": "Review", "reviewRating": {"@type": "Rating","ratingValue": "4"}, "author": "박영희", "reviewBody": "맛있고 육질이 좋아요." }
+    ],
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "이 한우는 냉장인가요 냉동인가요?",
+        "acceptedAnswer": { "@type": "Answer", "text": "모든 한우는 -2℃~5℃ 냉장상태로 배송됩니다." }
+      },
+      {
+        "@type": "Question",
+        "name": "유통기한은 얼마나 되나요?",
+        "acceptedAnswer": { "@type": "Answer", "text": "출고일로부터 7일입니다." }
+      },
+      {
+        "@type": "Question",
+        "name": "선물용 포장이 가능한가요?",
+        "acceptedAnswer": { "@type": "Answer", "text": "네, 아이스팩과 보냉박스에 선물포장됩니다." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <h1>1등급 한우 3구 선물세트 1.2kg</h1>
+  <img src="product.jpg" alt="한우 선물세트" width="400">
+  <p>국내산 1등급 한우로 구성된 프리미엄 3구 세트입니다.<br>
+     불고기용, 국거리용, 장조림용 각 400g씩 포함.</p>
+
+  <h2>주요 FAQ</h2>
+  <ul>
+    <li>냉장 상태로 배송되며 출고일 기준 유통기한 7일</li>
+    <li>선물용 포장 및 아이스팩 동봉</li>
+    <li>리뷰 평점 4.5/5 (신선함과 포장 만족도 높음)</li>
+  </ul>
+</body>
+</html>
